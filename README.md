@@ -11,3 +11,9 @@ This Nuxt3 boilerplate includes the following dependencies
 - `xss` - For sanitizing data before sending to the database.
 - `bcrypt` - For password hashing
 - `@nuxtjs/tailwindcss` - For UI
+
+### MongoDB Configuration
+1. Create a `.env` file
+2. Inside the file, `MONGO_URL=add-your-mongo-URL-here...`
+
+If configuration is successful, you should be able to see the `Successfully connected to DB.` in the terminal.
