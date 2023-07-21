@@ -1,63 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Boilerplate for MongoDB
+This Nuxt3 boilerplate includes the following dependencies
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- `eslint` - Widely used tool for linting and enforcing code style and quality.
+- `@nuxtjs/eslint-config-typescript` - Pre-configured Eslint setup for Nuxtjs.
+- `@pinia/nuxt` - Pinia state management pattern and library for Vue.js applications.
+- `mongoose` - For MongoDB Schema and modeling.
+- `mongo-sanitize` - Prevent potential NoSQL injection attacks in MongoDB-based applications.
+- `jsonwebtoken` - For Authentication and Authorization.
+- `nanoid` & `nanoid-dictionary` - For generating a random and unique ID's.
+- `xss` - For sanitizing data before sending to the database.
+- `bcrypt` - For password hashing
+- `@nuxtjs/tailwindcss` - For UI
